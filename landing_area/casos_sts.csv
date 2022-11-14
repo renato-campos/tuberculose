@@ -1,0 +1,31 @@
+TUBERCULOSE - Casos confirmados notificados no Sistema de Informação de Agravos de Notificação - Brasil
+Casos confirmados por Ano Diagnóstico e Mês Notificação
+Município de notificação: 354850 Santos
+Período:2015-2021
+"Ano Diagnóstico";"Jan";"Fev";"Mar";"Abr";"Mai";"Jun";"Jul";"Ago";"Set";"Out";"Nov";"Dez";"Total"
+"2015";33;35;36;30;26;35;40;36;52;30;29;39;421
+"2016";31;40;35;28;43;42;43;37;29;28;36;46;438
+"2017";33;22;44;21;44;29;31;32;26;26;43;42;393
+"2018";39;35;30;35;46;34;21;36;46;39;35;30;426
+"2019";30;24;35;38;40;32;46;32;42;35;44;44;442
+"2020";33;46;33;25;23;30;36;53;36;40;30;25;410
+"2021";24;17;22;43;27;23;31;25;27;33;31;42;345
+"Total";223;219;235;220;249;225;248;251;258;231;248;268;2875
+ Fonte: Ministério da Saúde/SVS - Sistema de Informação de Agravos de Notificação - Sinan Net
+ Notas:
+ 
+ Excluídos os registros encerrados com mudança de diagnóstico.
+ Períodos disponíveis - Correspondem aos anos de diagnóstico dos casos.
+ Para tabular dados epidemiológicos de um determinado ano selecione na linha a variável de interesse, e na coluna a variável “Ano do diagnóstico”; em “Períodos Disponíveis” assinale o ano inicial da série e todos os posteriores até o ano atual (para
+ Para cálculo da incidência selecione o local de residência e as seguintes categorias da variável “Tipo de entrada”: caso novo, não sabe e pós óbito.
+ A variável “Beneficiário de programa de transferência de renda do governo” não contém dados do Estado de São Paulo (SP). Quanto a variável “Terapia antirretroviral durante o tratamento da TB”, os dados do estado de SP foram inseridos a partir do seg
+ Não é possível calcular indicadores relacionados aos contatos de tuberculose.
+ Em 2014, foram incluídas as seguintes variáveis no Sinan-Net (Tuberculose): populações especiais (população privada de liberdade, população em situação de rua, profissional de saúde e imigrante), doenças e agravos associados (uso de drogas ilícitas
+ A variável “institucionalizado” foi descontinuada em 2015. Portanto, para análise referente à população privada de liberdade após esse período, utilizar a variável “PPL” (população privada de liberdade).
+ Para informações detalhadas sobre o Sinan-Tuberculose e sobre as análises de indicadores epidemiológicos e operacionais da tuberculose, acessar o link: http://portalsinan.saude.gov.br/tuberculose
+ Em caso de dúvidas, encaminhar e-mail para: tuberculose@saude.gov.br
+ Dados de 2001 a 2017 estão finalizados.
+ Dados de 2018 a 2022 atualizados em 02/2022, sujeitos à revisão.
+ Dados de 2020 referentes ao estado do Espírito Santo são oriundos do Sistema de Informação e-SUS VS, em uso pelo estado desde janeiro de 2020. Variáveis de acompanhamento e encerramento são indisponíveis nesse sistema.
+ Dados disponibilizados no TABNET em 02/2022, após homologação da Coordenação Geral de Vigilância das Doenças de Transmissão Respiratória de Condições Crônicas/DCCI/SVS.
+ 
