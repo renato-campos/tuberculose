@@ -20,7 +20,7 @@ arquivo.close()
 # criando o gráfico
 x = mortes_df['ano']
 y = mortes_df['morte']
-plt.style.use('ggplot')
+#plt.style.use('ggplot')
 plt.figure(figsize=(10, 5))
 plt.ylabel('nº de Mortes', fontsize=16)
 plt.yticks([0, 5, 7, 10, 11, 13])

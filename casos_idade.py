@@ -1,6 +1,7 @@
 # Tratamento dos dados relativos aos casos por faixa etária
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # carregando o arquivo de dados crus
 arquivo = open('.\\landing_area\casos_idade.csv', 'r', encoding='ISO-8859-1')
@@ -22,13 +23,11 @@ del faixa_etaria_df['Total']
 faixa_etaria_df = faixa_etaria_df.rename(columns={'Ano Diagnóstico': 'ano'})
 print(faixa_etaria_df.head(2))
 dfgrafico = faixa_etaria_df[:]
-del dfgrafico['ano']
-plt.style.use('ggplot')
-plt.figure(figsize=(10, 4))
-plt.title('Casos de TB por Faixa Etária', fontsize=20)
-plt.xlabel('Idades', fontsize=14)
-plt.ylabel('nº casos', fontsize=14)
-plt.xticks(fontsize=14, rotation=45)
-plt.plot(dfgrafico.transpose(),'d', markersize=14)
-plt.legend(faixa_etaria_df['ano'])
+dfgrafico.set_index('ano', inplace=True)
+
+# criando o gráfico 
+plt.title('Casos de TB por Faixa Etária', fontsize=14)
+plt.ylabel('')
+plt.xlabel('Faixas Etárias')
+sns.heatmap(data=dfgrafico, cmap='YlGnBu')
 plt.show()

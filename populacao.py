@@ -5,7 +5,7 @@ arquivo = open('.\\landing_area\\pop_sts.csv', 'r', encoding='ISO-8859-1')
 texto = arquivo.readlines()
 arquivo.close()
 texto = texto[4:6]
-print('Santos:\n', texto)
+# print('Santos:\n', texto)
 
 # Criando o dataframe com base no dados saídos na impressão acima
 dicionario = {"ano": [2015, 2016, 2017, 2018, 2019, 2020, 2021],
@@ -16,7 +16,7 @@ pop_sts = pd.DataFrame(data=dicionario)
 arquivo = open('.\\landing_area\\pop_spo_br.csv', 'r', encoding='ISO-8859-1')
 texto = arquivo.readlines()
 arquivo.close()
-print('Nacional:\n', texto)
+# print('Nacional:\n', texto)
 
 # criando dataframe a partir dos dados saídos
 dicionario = {"ano": [2015, 2016, 2017, 2018, 2019, 2020, 2021],
@@ -24,23 +24,14 @@ dicionario = {"ano": [2015, 2016, 2017, 2018, 2019, 2020, 2021],
               "pop_br": [203475683, 205156587, 206804741, 208494900, 210147125, 211755692, 213317639]}
 pop = pd.DataFrame(data=dicionario)
 
-# carregando dados sobre diagnósticos mensais no Brasil, SP e Santos
-tb_mensal_br = pd.read_csv('.\\staging_area\\casos_br.csv', encoding='ISO-8859-1')
-tb_mensal_spo = pd.read_csv('.\\staging_area\\casos_spo.csv', encoding='ISO-8859-1')
-tb_mensal_sts = pd.read_csv('.\\staging_area\\casos_sts.csv', encoding='ISO-8859-1')
+# CRIANDO O DATAFRAME POPULAÇÃO
+pop_df = pd.DataFrame()
 
-# print(pop_sts, pop, tb_mensal_sts, tb_mensal_spo, tb_mensal_br, sep='\n\n')
+# incluindo as colunas de população ao dataframe
+print("DataFrame dos índice com os dados de população")
+pop_df[['ano', 'pop_sts']] = pop_sts[['ano', 'pop_sts']]
+pop_df[['pop_spo', 'pop_br']] = pop[['pop_spo', 'pop_br']]
+print(pop_df)
 
-# CRIANDO O DATAFRAME PRINCIPAL - ÍnDICES
-indice_df = pd.DataFrame()
-indice_df[['ano', 'casos_sts']] = tb_mensal_sts[['ano', 'Total']]
-
-indice_df['casos_spo'] = tb_mensal_spo['Total']
-indice_df['casos_br'] = tb_mensal_br['Total']
-
-# incluindo as colunas de população ao dataframe principal
-indice_df[['pop_sts']] = pop_sts[['pop_sts']]
-indice_df[['pop_spo', 'pop_br']] = pop[['pop_spo', 'pop_br']]
-print(indice_df)
-
-"""Continuuas a formação do dataframe de índices que está dando erro"""
+# salvar o dataframe só de população
+pop_df.to_csv('.\\staging_area\\pop.csv', index=False)
