@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbef25e8-c955-4777-96f3-724ff9b43b4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/indice_100k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/landing_area/covid_sts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staging_area/covid_sts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staging_area/pop.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staging_area/tb_mensal.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tb_covid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tuberculose.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tuberculose.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casos_idade.py" beforeDir="false" afterPath="$PROJECT_DIR$/casos_idade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/TB em BR.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/TB em BR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/TB em SPO.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/TB em SPO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/TB em Santos.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/TB em Santos.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graficos/casos_idade.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/casos_idade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/indice_100k.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/indice_100k.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graficos/mortes.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/mortes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mortes.py" beforeDir="false" afterPath="$PROJECT_DIR$/mortes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/populacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tb_mensal.py" beforeDir="false" afterPath="$PROJECT_DIR$/tb_mensal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/variação.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/variação.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
       <recent name="D:\Projetos\tuberculose" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.indice_100k">
+  <component name="RunManager" selected="Python.casos_idade">
     <configuration name="casos_idade" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tuberculose" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.casos_idade" />
         <item itemvalue="Python.indice_100k" />
         <item itemvalue="Python.tb_covid" />
-        <item itemvalue="Python.casos_idade" />
         <item itemvalue="Python.mortes" />
         <item itemvalue="Python.tempo" />
       </list>

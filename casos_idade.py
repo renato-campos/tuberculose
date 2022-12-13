@@ -26,8 +26,8 @@ dfgrafico = faixa_etaria_df[:]
 dfgrafico.set_index('ano', inplace=True)
 
 # criando o gráfico 
-plt.title('Casos de TB por Faixa Etária', fontsize=14)
-plt.ylabel('')
+plt.title('Casos de Tuberculose por Faixa Etária', fontsize=14)
+plt.ylabel('nº casos')
 plt.xlabel('Faixas Etárias')
 sns.heatmap(data=dfgrafico, cmap='YlGnBu')
 plt.show()
