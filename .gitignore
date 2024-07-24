@@ -241,6 +241,7 @@ fabric.properties
 # remoção dos arquivos de vídeo para reduzir o tamanho do repositório
 videoaulas/
 *.mp4
+*.pdf
 
 # arquivos relativos a sistemas operacionais
 desktop.ini 
